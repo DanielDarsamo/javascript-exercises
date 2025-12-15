@@ -1,4 +1,4 @@
-const removeFromArray = function(array,numberofthings) {
+const removeFromArray = function(array,...numberofthings) {
  let arpa=[];
  for(let i=0; i<array.length;i++){
     if(!numberofthings.includes(array[i])){
